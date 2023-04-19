@@ -1,0 +1,30 @@
+﻿@model StudentViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Students</h1>
+
+
+<ul>
+    @foreach (var std in Model.Students)
+    {
+
+        <li style="color:@(std.Point<65?"red":"green")">
+            <a asp-action="detail" asp-route-id="@std.Id">@std.Name @std.Surname - @std.Point</a>
+            </li>
+    }
+</ul>
+
+<h1>Groups</h1>
+
+<ul>
+    @foreach (var gr in Model.Groups)
+    {
+        <li>@gr.No</li>
+    }
+</ul>
+
+
+
+

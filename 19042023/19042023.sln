@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework\Homework.csproj", "{DF9D734C-7166-47D8-9220-2C5B4F798FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template1", "Template1\Template1.csproj", "{ED500B62-1DB1-41D3-B667-1190787F9DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eterna", "Eterna\Eterna.csproj", "{16AC385F-24F7-44DA-BACE-EA445670009B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF9D734C-7166-47D8-9220-2C5B4F798FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9D734C-7166-47D8-9220-2C5B4F798FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9D734C-7166-47D8-9220-2C5B4F798FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9D734C-7166-47D8-9220-2C5B4F798FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED500B62-1DB1-41D3-B667-1190787F9DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED500B62-1DB1-41D3-B667-1190787F9DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED500B62-1DB1-41D3-B667-1190787F9DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED500B62-1DB1-41D3-B667-1190787F9DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AC385F-24F7-44DA-BACE-EA445670009B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AC385F-24F7-44DA-BACE-EA445670009B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AC385F-24F7-44DA-BACE-EA445670009B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AC385F-24F7-44DA-BACE-EA445670009B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55950360-0709-4700-8333-3F07901062CE}
+	EndGlobalSection
+EndGlobal
